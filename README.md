@@ -17,11 +17,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-int lista[] = {31, 1, 32, 3, 4, 25, 6, 72, 8, 9, 10};
-        int valor = 25;
-        int resultado = Pesquisar.buscaSequencial(lista, valor);
-        System.out.println("Valor encontrado na posição: " + resultado);
-        Arrays.sort(lista);
-        System.out.println("Lista ordenada: " + Arrays.toString(lista));
-        resultado = Pesquisar.buscaBinaria(lista, valor);
-        System.out.println("Valor encontrado na posição: " + resultado);
+## O Projecto está divido em duas partes
+- `src\App.java`: Onde estão os algoritmos de pesquisa sequencial e busca binária.
+- `src\Ordenar.java`: estão os algoritmos de ordenação como `Bubble Sort, Merge Sort, Insert Sort, Quick Sort e outros`.
+
+> O código está comentado na sua totalidade para facilitar o entendimento.
