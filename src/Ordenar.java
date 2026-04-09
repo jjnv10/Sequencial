@@ -1,3 +1,10 @@
+/**
+ * @author Joaquim João Nsaku Ventura
+ * @version 1.0
+ * @since 2024-06-01
+ * Este código implementa os algoritmos de ordenação Bubble Sort, Selection Sort, Insertion Sort, Quick Sort e Merge Sort em Java. Cada algoritmo é explicado em termos de sua lógica e complexidade. O código inclui um exemplo de uso desses algoritmos, onde uma lista de inteiros é criada e ordenada usando cada um dos métodos de ordenação, com a lista original e as listas ordenadas sendo impressas no console.
+ * A complexidade do Bubble Sort, Selection Sort e Insertion Sort é O(n^2) no pior caso, enquanto a complexidade do Quick Sort é O(n log n) no melhor caso e O(n^2) no pior caso, e a complexidade do Merge Sort é O(n log n) no melhor, pior e caso médio.
+ */
 
 import java.util.Arrays;
 

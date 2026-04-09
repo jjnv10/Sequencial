@@ -1,4 +1,11 @@
 
+/**
+ * @author Joaquim João Nsaku Ventura
+ * @version 1.0
+ * @since 2024-06-01
+ * Este código implementa os algoritmos de busca sequencial e busca binária em Java. A busca sequencial percorre a lista do início ao fim, comparando cada elemento com a chave de busca, enquanto a busca binária requer que a lista esteja ordenada e divide a lista em partes para encontrar a chave de forma mais eficiente. O código também inclui um exemplo de uso desses algoritmos, onde uma lista de inteiros é criada, a busca sequencial é realizada para encontrar um elemento específico, a lista é ordenada e a busca binária é realizada para encontrar o mesmo elemento.
+ * A complexidade da busca sequencial é O(n) no pior caso, enquanto a complex
+ */
 import java.util.Arrays;
 
 public class App {
